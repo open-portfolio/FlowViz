@@ -69,7 +69,6 @@ struct BlockView: View {
 }
 
 public struct VizBarView: View {
-
     private var fencedArea = FencedArea()
 
     public init(_ slices: [VizSlice]) {
@@ -86,10 +85,8 @@ public struct VizBarView: View {
     }
 }
 
- struct VizBarView_Previews: PreviewProvider {
-
+struct VizBarView_Previews: PreviewProvider {
     struct TestHolder: View {
-
         var slices: [VizSlice]
 
         var body: some View {
@@ -101,7 +98,6 @@ public struct VizBarView: View {
     }
 
     static var previews: some View {
-
         let slices: [VizSlice] = [
             VizSlice(0.35, Color(.systemIndigo)),
             VizSlice(0.12, Color(.blue)),
@@ -119,5 +115,4 @@ public struct VizBarView: View {
         return TestHolder(slices: slices)
             .previewLayout(.sizeThatFits)
     }
- }
-
+}

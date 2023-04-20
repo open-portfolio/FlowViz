@@ -100,20 +100,17 @@ public struct VizRingView: View {
 }
 
 struct VizRingView_Previews: PreviewProvider {
-    
     struct TestHolder: View {
-        
         var slices: [VizSlice]
-        
+
         var body: some View {
             NavigationView {
                 VizRingView(slices)
             }
         }
     }
-    
+
     static var previews: some View {
-        
         let slices: [VizSlice] = [
             VizSlice(0.35, Color(.systemIndigo)),
             VizSlice(0.12, Color(.blue)),
@@ -127,7 +124,7 @@ struct VizRingView_Previews: PreviewProvider {
             VizSlice(0.01, Color(.systemPink)),
             VizSlice(0.01, Color(.magenta)),
         ]
-        
+
         return TestHolder(slices: slices)
             .previewLayout(.sizeThatFits)
     }
