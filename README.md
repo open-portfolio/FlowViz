@@ -1,6 +1,6 @@
 # FlowViz
 
-Swift library containing shared visualization component support for the [FlowAllocator](https://open-portfolio.github.io/allocator) and [FlowWorth](https://open-portfolio.github.io/worth) apps
+Swift library containing shared visualization component support for the [Flow Allocator](https://open-portfolio.github.io/allocator) and [Flow Worth](https://open-portfolio.github.io/worth) apps
 
 _FlowViz_ is part of the [OpenAlloc](https://github.com/openalloc) family of open source Swift software tools.
 
